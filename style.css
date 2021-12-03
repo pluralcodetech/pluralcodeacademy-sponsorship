@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap");
+/*   Sass Template  */
+/*  Global classes  */
+body {
+  background-color: #0A0F23;
+}
+
+.container-expand {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.button-register {
+  box-shadow: none !important;
+  background: #0A0F23;
+  color: #ffffff;
+  border: 0;
+  outline: 1px solid #FFB341;
+  height: 35px;
+  width: 125px;
+  border-radius: 4px;
+  padding: 10px, 32px, 10px, 32px;
+}
+
+.bg-light-color {
+  background-color: #0A0F23;
+}
+
+.color-text {
+  color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #ffffff;
+  margin-right: 25px;
+  font-weight: 400;
+  font-family: "Nunito Sans", cursive;
+  line-height: 21.82px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-item {
+  color: #ffffff;
+  margin-right: 25px;
+  font-weight: 400;
+  font-family: "Nunito Sans", cursive;
+  line-height: 21.82px;
+}
+
+.box {
+  background: url("assets/hero.png") no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  height: 800px;
+  box-sizing: border-box;
+}
+
+.box-content {
+  margin: 10% auto;
+}
+
+h1 {
+  font-family: "Nunito Sans", cursive;
+  font-size: 74px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 84px;
+  letter-spacing: 0.200000003px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.span-text {
+  color: #DF8806;
+}
+
+.box-text {
+  font-family: "Nunito Sans", cursive;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.200000003px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/*  typography classes  */
+.font-nunito {
+  font-family: "Nunito Sans", cursive;
+}
+
+.font-size-14 {
+  font-size: 14px;
+}
+
+.font-size-16 {
+  font-size: 16px;
+}
+
+.font-size-18 {
+  font-size: 18px;
+}
+
+.font-size-20 {
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
