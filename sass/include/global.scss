@@ -133,7 +133,7 @@ h1 {
     border: 2px solid $gradient-color;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
     .card-sections {
         flex-direction: column;
     }
@@ -306,4 +306,57 @@ h1 {
 
 .navbar-light .navbar-toggler {
     background-color: $gradient-color;
+}
+
+.boxd {
+    background: url("assets/spon.png") no-repeat center center;
+    height: 268px;
+    width: 100%;
+    border-radius: 18.990161895751953px;
+    box-sizing: border-box;
+}
+
+.wrapper h5 {
+    font-family: $font-nunito;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    color: $color-white;
+}
+
+.wrapper p {
+    font-family: $font-nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    color: $color-fade;
+}
+
+.wrapper-content {
+    position: relative;
+}
+
+.wrapper {
+    position: absolute;
+    top: 30%;
+    left: 13%;
+}
+@media screen and (max-width: 800px) {
+    .wrapper {
+        position: absolute;
+        top: 40px;
+        left: 18px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .wrapper {
+        position: absolute;
+        top: 25px;
+        left: 13px;
+    }
 }

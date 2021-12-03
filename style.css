@@ -132,7 +132,7 @@ h1 {
   border: 2px solid #FFB341;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .card-sections {
     flex-direction: column;
   }
@@ -301,6 +301,58 @@ h1 {
   background-color: #FFB341;
 }
 
+.boxd {
+  background: url("assets/spon.png") no-repeat center center;
+  height: 268px;
+  width: 100%;
+  border-radius: 18.9901618958px;
+  box-sizing: border-box;
+}
+
+.wrapper h5 {
+  font-family: "Nunito Sans", cursive;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  color: #ffffff;
+}
+
+.wrapper p {
+  font-family: "Nunito Sans", cursive;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.200000003px;
+  color: #D6D6D6;
+}
+
+.wrapper-content {
+  position: relative;
+}
+
+.wrapper {
+  position: absolute;
+  top: 30%;
+  left: 13%;
+}
+
+@media screen and (max-width: 800px) {
+  .wrapper {
+    position: absolute;
+    top: 40px;
+    left: 18px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .wrapper {
+    position: absolute;
+    top: 25px;
+    left: 13px;
+  }
+}
 /*  typography classes  */
 .font-nunito {
   font-family: "Nunito Sans", cursive;
