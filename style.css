@@ -3,6 +3,8 @@
 /*  Global classes  */
 body {
   background-color: #0A0F23;
+  margin: 0;
+  padding: 0;
 }
 
 .container-expand {
@@ -36,6 +38,11 @@ body {
   background-image: linear-gradient(to right, #FFB341, #DF8806);
 }
 
+@media screen and (max-width: 400px) {
+  .button-sponsor {
+    width: 250px;
+  }
+}
 .bg-light-color {
   background-color: #0A0F23;
 }
@@ -154,6 +161,144 @@ h1 {
   letter-spacing: 0.200000003px;
   text-align: center;
   color: #D6D6D6;
+}
+
+.section-margin {
+  margin-top: 150px;
+}
+
+@media screen and (max-width: 600px) {
+  .section-margin {
+    margin-top: 50px;
+  }
+}
+.extend {
+  margin: 10% auto;
+}
+
+.mission2 {
+  margin: 0 auto 10% 10%;
+}
+
+.mission h2 {
+  font-family: "Nunito Sans", cursive;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.200000003px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.mission2 h2 {
+  font-family: "Nunito Sans", cursive;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.200000003px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.mission p {
+  font-family: "Nunito Sans", cursive;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.200000003px;
+  text-align: left;
+  color: #D6D6D6;
+}
+
+.mission2 p {
+  font-family: "Nunito Sans", cursive;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.200000003px;
+  text-align: left;
+  color: #D6D6D6;
+}
+
+.mission-section .mission-image img {
+  width: 100%;
+}
+
+.mission-section2 .mission-image img {
+  width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+  .mission-section {
+    flex-direction: column;
+  }
+
+  .mission h2 {
+    text-align: center;
+  }
+
+  .mission p {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 768px) {
+  .mission-section {
+    flex-direction: column;
+  }
+
+  .mission h2 {
+    text-align: center;
+  }
+
+  .mission p {
+    text-align: center;
+  }
+}
+.boxc {
+  background: url("assets/cert.png") no-repeat center center;
+  background-size: contain;
+  height: 565px;
+  width: 100%;
+  border-radius: 24px;
+  padding: 10px;
+  margin: 0 auto 0;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px) {
+  .boxc {
+    margin: 0;
+    max-height: 300px;
+  }
+}
+.certify h2 {
+  font-family: "Nunito Sans", cursive;
+  font-size: 46px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 57px;
+  letter-spacing: 0.200000003px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.certify p {
+  font-family: "Nunito Sans", cursive;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.200000003px;
+  text-align: center;
+  color: #D6D6D6;
+}
+
+.navbar-light .navbar-toggler {
+  background-color: #FFB341;
 }
 
 /*  typography classes  */

@@ -1,11 +1,14 @@
 /*  Global classes  */
 body {
     background-color: $color-primary;
+    margin: 0;
+    padding: 0;
 }
 .container-expand {
     margin-left: 20px;
     margin-right: 20px;
 }
+
 
 
 .button-register {
@@ -34,7 +37,12 @@ body {
     padding: 10px, 32px, 10px, 32px;
     color: $color-white;
     background-image: linear-gradient(to right, $gradient-color, $gradientB-color);
+}
 
+@media screen and (max-width: 400px){
+    .button-sponsor {
+        width: 250px;
+    }
 }
 
 .bg-light-color {
@@ -155,4 +163,147 @@ h1 {
     letter-spacing: 0.20000000298023224px;
     text-align: center;
     color: $color-fade;
+}
+
+
+.section-margin {
+    margin-top: 150px;
+}
+
+@media screen and (max-width: 600px){
+    .section-margin {
+        margin-top: 50px;
+    }
+}
+
+.extend {
+    margin: 10% auto;
+}
+
+.mission2 {
+    margin: 0 auto 10% 10%;
+}
+.mission h2 {
+    font-family: $font-nunito;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: $color-white;
+}
+
+.mission2 h2 {
+    font-family: $font-nunito;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: $color-white;
+}
+
+.mission p {
+    font-family: $font-nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: $color-fade;
+}
+
+.mission2 p {
+    font-family: $font-nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: $color-fade;
+}
+
+.mission-section .mission-image img  {
+    width: 100%;
+}
+
+.mission-section2 .mission-image img {
+    width: 100%;
+}
+@media screen and (max-width: 600px) {
+    .mission-section {
+        flex-direction: column;
+    }
+
+    .mission h2 {
+        text-align: center;
+    }
+
+    .mission p {
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .mission-section {
+        flex-direction: column;
+    }
+
+    .mission h2 {
+        text-align: center;
+    }
+
+    .mission p {
+        text-align: center;
+    }
+
+}
+
+.boxc {
+    background: url("assets/cert.png") no-repeat center center;
+    background-size: contain;
+    height: 565px;
+    width: 100%;
+    border-radius: 24px;
+    padding: 10px;
+    margin: 0 auto 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 600px){
+    .boxc {
+        margin: 0;
+        max-height: 300px;
+    }
+}
+
+.certify h2 {
+    font-family: $font-nunito;
+    font-size: 46px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 57px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: $color-white;
+}
+
+.certify p {
+    font-family: $font-nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: $color-fade;
+}
+
+.navbar-light .navbar-toggler {
+    background-color: $gradient-color;
 }
