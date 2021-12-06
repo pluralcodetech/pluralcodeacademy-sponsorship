@@ -360,3 +360,181 @@ h1 {
         left: 13px;
     }
 }
+
+.button-whatsap {
+    outline: none;
+    box-shadow: none;
+    border: 0;
+    font-family: $font-nunito;
+    height: 72px;
+    width: 363px;
+    border-radius: 4px;
+    padding: 10px, 32px, 10px, 32px;
+    margin-top: 50px;
+    margin-right: 10px;
+    color: $color-white;
+    background-image: linear-gradient(to right, $color-green, $color-greenB);
+}
+
+.button-mail {
+    outline: none;
+    box-shadow: none;
+    border: 0;
+    font-family: $font-nunito;
+    height: 72px;
+    width: 363px;
+    border-radius: 4px;
+    padding: 10px, 32px, 10px, 32px;
+    margin-top: 50px;
+    color: $color-white;
+    background-image: linear-gradient(to right, $color-red, $color-redB);
+}
+
+@media screen and (max-width: 400px){
+    .button-whatsap {
+        width: 250px;
+    }
+
+    .button-mail {
+        width: 250px;
+    }
+}
+
+.footer-section {
+    background-color: $footer-bg-color;
+    padding: 50px 50px 180px 50px;
+}
+
+.footer-image p {
+    font-family: $font-nunito;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $color-fade;
+    margin-top: 20px;
+}
+
+.footer-explore h3 {
+    font-family: $font-nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $color-white;
+}
+
+.footer-explore p {
+    font-family:$font-nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $color-fade;
+}
+
+.footer-course p {
+    font-family: $font-nunito;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $color-fade;
+}
+
+.footer-about h3 {
+    font-family: $font-nunito;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $color-fade;
+}
+
+.footer-about p {
+    font-family: $font-nunito;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: $color-fade;
+}
+
+@media screen and (max-width: 600px) {
+    .footer-content {
+        flex-direction: column;
+    }
+
+    .footer-image {
+        text-align: center;
+    }
+
+    .footer-image p {
+        text-align: center;
+    }
+
+    .footer-social-link {
+        text-align: center;
+    }
+
+    .footer-explore h3 {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .footer-explore p {
+        text-align: center;
+    }
+
+    .footer-course p {
+        text-align: center;
+    }
+
+    .footer-about h3 {
+        text-align: center;
+    }
+
+    .footer-about p {
+        text-align: center;
+    }
+}
+
+.sub-footer {
+    width: 300px;
+    border-radius: 0px;
+    padding: 10px;
+    background-image: linear-gradient(to right, $button-bg-gradient, $button-bgb-gradient);
+}
+
+.sub-footer p {
+    font-family: $font-nunito;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: $color-white;
+    text-align: center;
+    margin: 3% auto;
+}
+
+.footer-extend {
+    position: relative;
+}
+
+.sub-footer {
+    position: absolute;
+    bottom: 0;
+}
